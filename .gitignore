@@ -1,0 +1,75 @@
+# ===== Java / Build artifacts =====
+# Compiled class files
+*.class
+
+# Packages
+*.jar
+*.war
+*.ear
+
+# Maven build folder
+/target/
+
+# Maven wrapper — keep the wrapper files tracked (uncomment if you want to track)
+/!.mvn/wrapper/maven-wrapper.jar
+/!.mvn/wrapper/maven-wrapper.properties
+
+# ===== IDEs =====
+# IntelliJ
+/.idea/
+/*.iml
+/out/
+
+# VS Code
+/.vscode/
+
+# Eclipse
+.classpath
+.project
+/.settings/
+
+# NetBeans
+/nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== Logs and temporary files =====
+*.log
+logs/
+*.log.*
+tmp/
+temp/
+*.tmp
+*.swp
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets & keys =====
+.env
+*.jks
+*.keystore
+keystore.*
+credentials.properties
+secret*.properties
+application-local.properties
+application-*.yml
+
+# ===== Generated sources / tooling =====
+/generated-sources/
+/generated-test-sources/
+/build/
+
+/.gradle/
+/.gradle/
+/gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ===== Misc =====
+hs_err_pid*
+.classpath
+.settings/
